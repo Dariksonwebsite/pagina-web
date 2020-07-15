@@ -111,16 +111,16 @@
     overflow: hidden;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    animation: movimiento 8s infinite linear alternate;
+   /* animation: movimiento 8s infinite linear alternate;*/
     font-family: 'Open Sans', sans-serif;
   }
-  @keyframes movimiento{
+/*  @keyframes movimiento{
     from{
     background-position: bottom left;
     }to{
      background-position: top right;
     }
-   }
+   }*/
   #home .inner-width{
     display: flex;
     align-items: center;
@@ -380,15 +380,15 @@ min-height: 100vh;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
- animation: movimiento 8s infinite linear alternate;
+/* animation: movimiento 8s infinite linear alternate;*/
 }
-@keyframes movimiento{
+/*@keyframes movimiento{
   from{
   background-position: bottom left;
   }to{
    background-position: top right;
   }
- }
+ }*/
 .body2 .container h1, p{
 text-align: center;
 }
